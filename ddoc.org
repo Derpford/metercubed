@@ -12,3 +12,11 @@
         modded MC to this game easier
       - May need some kind of hint on world start, i.e., "place the stone and
         stick on a stone to make your first pick"
+** Everything needs a mechanic.
+      - If it isn't gonna have a unique mechanic, maybe it shouldn't be here.
+      - Each thing in the game needs something that makes you *think* about
+        it.
+      - Example: Blocks fall without supports, making building complicated.
+      - Example: Steam has certain movement patterns and powers turbines it
+        runs into.
+      - Example: Combat is full of slow projectiles and patterns.

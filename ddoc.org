@@ -1,0 +1,14 @@
+* Design Goals
+** First, do no grind
+      - Anything that doesn't involve thought or planning should be
+        automated.
+      - Anything that has to be done by the player should be either
+        interesting or over quickly.
+** Try to do everything in-world
+      - If possible, all inputs should be handled through in-world
+        interaction (drop item into hopper|place item next to other
+        item|click on object with empty hand)
+      - Use the "blue input, orange output" standard to make transition from
+        modded MC to this game easier
+      - May need some kind of hint on world start, i.e., "place the stone and
+        stick on a stone to make your first pick"

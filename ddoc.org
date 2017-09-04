@@ -1,22 +1,34 @@
 * Design Goals
 ** First, do no grind
-      - Anything that doesn't involve thought or planning should be
-        automated.
-      - Anything that has to be done by the player should be either
-        interesting or over quickly.
+- Anything that doesn't involve thought or planning should be
+  automated.
+- Anything that has to be done by the player should be either
+  interesting or over quickly.
 ** Try to do everything in-world
-      - If possible, all inputs should be handled through in-world
-        interaction (drop item into hopper|place item next to other
-        item|click on object with empty hand)
-      - Use the "blue input, orange output" standard to make transition from
-        modded MC to this game easier
-      - May need some kind of hint on world start, i.e., "place the stone and
-        stick on a stone to make your first pick"
+- If possible, all inputs should be handled through in-world
+  interaction (drop item into hopper|place item next to other
+  item|click on object with empty hand)
+- Use the "blue input, orange output" standard to make transition from
+  modded MC to this game easier
+- May need some kind of hint on world start, i.e., "place the stone and
+  stick on a stone to make your first pick"
 ** Everything needs a mechanic.
-      - If it isn't gonna have a unique mechanic, maybe it shouldn't be here.
-      - Each thing in the game needs something that makes you *think* about
-        it.
-      - Example: Blocks fall without supports, making building complicated.
-      - Example: Steam has certain movement patterns and powers turbines it
-        runs into.
-      - Example: Combat is full of slow projectiles and patterns.
+- If it isn't gonna have a unique mechanic, maybe it shouldn't be here.
+- Each thing in the game needs something that makes you *think* about
+  it.
+- Example: Blocks fall without supports, making building complicated.
+- Example: Steam has certain movement patterns and powers turbines it
+  runs into.
+- Example: Combat is full of slow projectiles and patterns.
+* Specific mechanics
+** Crafting
+*** Basic crafting
+- Basic item crafting involves two main steps and one preparatory step
+- First, you need a work surface. Different crafting recipes can
+  require certain work surfaces (i.e., tools require a stone block as
+  an 'anvil')
+- Then, place items on the work surface. More space may be needed for
+  larger recipes. Items should be handled as a special block type to
+  accomodate this.
+- Finally, shift+click on the items to get the result (key combo is
+  subject to change).
